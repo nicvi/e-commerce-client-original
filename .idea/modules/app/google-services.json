@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2635219277",
+    "firebase_url": "https://elv-commerce.firebaseio.com",
+    "project_id": "elv-commerce",
+    "storage_bucket": "elv-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2635219277:android:1d3b06b799064efad57704",
+        "android_client_info": {
+          "package_name": "com.example.elv_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2635219277-ad3ajr5qddmjgncat2jgp48blr3k92pe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elv_commerce",
+            "certificate_hash": "ee4140617239b7e36a1ffa97d13115b2875cac52"
+          }
+        },
+        {
+          "client_id": "2635219277-enrd2pav0qqetlbmmmi3qqhpf6tabvv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmtwWGw93MMKDhuk4eXu2qSrwiQgrJNlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2635219277-enrd2pav0qqetlbmmmi3qqhpf6tabvv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

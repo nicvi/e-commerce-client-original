@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/fui_button_inset_bottom"
+    android:paddingLeft="@dimen/fui_button_inset_left"
+    android:paddingRight="@dimen/fui_button_inset_right"
+    android:paddingTop="@dimen/fui_button_inset_top">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

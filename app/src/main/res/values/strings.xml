@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Tienda</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Autenticandose con mail y contraseña.</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="_123">123</string>
+    <string name="hola_desde_el_menu_principal_del_usuario">hola desde el menu principal del usuario</string>
+    <string name="_1z3a5g">1Z3A5G</string>
+
+    <string name="ejemplo_ejemplo_com">ejemplo@ejemplo.com</string>
+    <string name="signOut">Cerrar sesión</string>
+    <string name="buen_d_a">Buen día</string>
+    <string name="textview">TextView</string>
+    <string name="search_hint">Busqueda</string>
+    <string name="msn_bienvenida">Tenga un excelente compra</string>
+
+
+    <string name="txt_longProductName">Este producto tiene un nombre grande que no cabe en una sola linea</string>
+    <string name="noOfferPrice">99999999</string>
+    <string name="unavailableTag">No disponible</string>
+
+
+    <string name="hintPurchaseName">Ejemplo: Compra de 1 par de zapatos</string>
+    <string name="noPurchaseName">Si no crea un nombre de compra, se generará uno automaticamente</string>
+    <string name="purchaseOption1">Pagar y retirar compra personalmente</string>
+    <string name="purchaseOption2">Enviar a tercero, repartidor u otra presona</string>
+    <string name="purchaseOption3">Solicitar repartidor al negocio (precio del repartidor no incluido en la compra)</string>
+
+    <string name="longNameBill">Compra de par de zapatos comprados el dia de ayer en la tienda. La compra se la retiro en una moto</string>
+    <string name="date">21/12/2020</string>
+    <string name="hour">21:45:56</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- MAPS and Maps bar -->
+    <string name="action_geolocate">Ubicación actual</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">Ningún lugar encontrado, porque el permiso de localizacion esta desabilitado.</string>
+    <!-- MAPS and Maps bar -->
+
+    <string name="maps_api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD2V3zd2fquwsr2R5Q9LUgxjM1QWBZsbug</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="title_activity_maps_default_layout">Map</string>
+    <string name="address">Paseje 3er callejon oeste y oriente medio</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- fragment unavailable products [BEGIN] -->
+    <string name="fragment_product_title">Productos elegidos actualmente no disponibles</string>
+    <string name="fragment_product_subTitle">Algunos de los productos elegidos dejaron de estar disponibles mientras comprabas.</string>
+    <string name="productField">Producto: </string>
+    <string name="productValue">Un producto</string>
+    <string name="desiredQuantityField">Cantidad deseada: </string>
+    <string name="desiredQuantityValue">252</string>
+    <string name="actualStockField">Stock actual: </string>
+    <string name="actualStockValue">100</string>
+    <!-- fragment unavailable products [END] -->
+
+
+    <!-- fragment purchase canceled [BEGIN] -->
+    <string name="purchaseCanceledMsn">Usted ha cancelado su compra</string>
+    <!-- fragment purchase canceled [END] -->
+
+
+    <!-- UserAuth_menu [BEGIN] -->
+    <string name="successfulPurchase">Su compra se realizó con éxito</string>
+    <!-- UserAuth_menu [END] -->
+
+
+    <!-- EmptyTrolleyActivity [BEGIN] -->
+    <string name="txt_EmptyTrolley">Usted aún no ha añadidio productos al carrito.</string>
+    <!-- EmptyTrolleyActivity [END] -->
+
+
+    <!-- General texts [BEGIN] -->
+    <string name="e_mailField">E-mail:</string>
+    <string name="passwordField">Contraseña:</string>
+    <string name="phoneField">Teléfono: </string>
+
+    <string name="firstNameValue">Nepomuceno</string>
+    <string name="lastNameValue">Tibanquiza</string>
+    <string name="e_mailValue">ejemplo@ejemplo.com</string>
+    <string name="phoneValue">0969618295 </string>
+    <string name="passwordValue">1z3A5G</string>
+
+    <string name="locationField">Ubicación: </string>
+    <string name="locationValue">No ha elegido ubicación </string>
+    <string name="addLocation">Añadir ubicación </string>
+
+
+    <string name="productNameField">Nombre: </string>
+    <string name="productNameValue">EJEMPLO: Manzana con un nombre muy grande que no cabe en este pequeño cuadro, en el cual se coloca el nombre de los productos</string>
+
+    <string name="productCostField">Costo: </string>
+    <string name="productCostValue">EJEMPLO: $ 999.99 </string>
+
+    <string name="ProductQuantityField">Cantidad: </string>
+    <string name="ProductQuantityValue">EJEMPLO: 5</string>
+
+    <string name="productUnitField">Unidad: </string>
+    <string name="productUnitValue">EJEMPLO: Unidad</string>
+
+    <!--__________________________-->
+
+    <string name="billNameField">Nombre de compra: </string>
+    <string name="billNameValue">EJEMPLO: Compra de manzanas</string>
+
+    <string name="billPriceField">Costo de la compra: </string>
+    <string name="billPriceValue">$ 999.99</string>
+
+    <string name="billDateField">Fecha: </string>
+    <string name="billDateValue">EJEMPLO: 20/12/2020</string>
+
+    <string name="billHourField">Hora: </string>
+    <string name="billHourValue">EJEMPLO: 21:45:12</string>
+
+    <string name="billPurchaseMethodField">Método de compra: </string>
+    <string name="billPurchaseMethodValue">EJEMPLO: Solicitar repartidor</string>
+
+    <string name="billTotalItemsField">Productos totales</string>
+    <string name="billTotalItemsValue">EJEMPLO: 13</string>
+
+    <string name="billPickedUpField">Entregado/retirado: </string>
+    <string name="billPickedUpValue">EJEMPLO: No</string>
+
+    <!--__________________________-->
+
+    <string name="Products">Productos</string>
+    <string name="Bill">Factura</string>
+    <string name="deleteBill">Eliminar factura</string>
+    <string name="billHistoric">Histórico de compras</string>
+
+    <!--__________________________-->
+
+    <string name="siguiente">Siguiente</string>
+    <string name="anterior">Anterior</string>
+
+    <!--__________________________-->
+
+    <string name="totalItemsTitle">Total (1 items)</string>
+    <!-- General [END] -->
+
+    <!-- activity_facturas [BEGIN] -->
+    <string name="noBillsMessage">No hay facturas que mostrar</string>
+    <!-- activity_facturas [END] -->
+
+    <!-- activity_billSelected [BEGIN] -->
+    <string name="billTitle">Factura</string>
+    <string name="productSubTitle">Productos: </string>
+    <!-- activity_billSelected [END] -->
+
+
+    <!-- activity_signup_mailpassword [BEGIN] -->
+    <string name="SignUpTittle">Registro</string>
+    <string name="passwordRequirements">Ingresar contraseña de 6 o más caracteres.</string>
+    <string name="whyphone">El teléfono es útil para que el administrador de la tienda lo contacte en caso que su compra deba ser enviada por algún servicio de entrega.</string>
+    <string name="whylocation">Eliga la ubicación a donde quisiera que llegue su compra en caso que de usted envie a retirar su pedido.</string>
+    <string name="registrarse">Registrarse</string>
+    <!-- activity_signup_mailpassword [BEGIN] -->
+
+
+    <!-- activity_settings [BEGIN] -->
+    <string name="accountSettings">Configurar cuenta</string>
+    <string name="saveChanges">Guardar cambios</string>
+    <!-- activity_settings [END] -->
+
+
+    <!-- activity_chooser_category [BEGIN] -->
+    <string name="categories">Categorías: </string>
+    <string name="allCategories">Todos los productos</string>
+    <!-- activity_chooser_category [END] -->
+
+    <!-- activity_selected_category [BEGIN] -->
+    <string name="noCategoryProducts">No hay productos para esta categoria.</string>
+    <!-- activity_chooser_category [BEGIN] -->
+
+
+
+    <!-- activity_chooser_category [BEGIN] -->
+    <string name="TiendaTitle">Tienda</string>
+    <string name="appJustLogo">appJustLogo</string>
+    <string name="signIn">Iniciar Sesión</string>
+    <string name="signUp">Registrarse</string>
+
+    <string name="TiendaSubTitle">Para acceder inicie sesión o regístrese</string>
+    <!-- activity_chooser_category [END] -->
+
+
+    <!-- activity_chooser_category [BEGIN] -->
+    <string name="search">Buscador</string>
+    <string name="trolley">Carrito</string>
+    <string name="home">home</string>
+    <!-- activity_chooser_category [END] -->
+
+
+    <!-- activity_searchable [BEGIN] -->
+    <string name="queryText">Resultados de busqueda</string>
+    <string name="noQueryResult">No hay resultados</string>
+    <!-- activity_searchable [END] -->
+
+
+    <!-- activity_productos [BEGIN] -->
+    <string name="noProductsResult">No hay productos</string>
+    <string name="trolleyImageDescription">trolleyImage</string>
+    <!-- activity_searchable [END] -->
+</resources>

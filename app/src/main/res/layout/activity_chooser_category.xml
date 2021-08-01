@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="sdcn.project.ecommerce_client_distributed.ChooserCategoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_ChooserCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quantum_deeppurpleA200"
+        android:minHeight="?attr/actionBarSize"
+        app:menu="@menu/menu"
+        app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:padding="14dp"
+        android:text="@string/categories"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_AllCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/allCategories" />
+
+    <ListView
+        android:id="@+id/listView_fireStoreCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="14dp" />
+
+
+
+
+</LinearLayout>

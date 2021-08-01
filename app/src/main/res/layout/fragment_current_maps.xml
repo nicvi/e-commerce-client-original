@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA1919"
+    android:backgroundTint="#8D686464"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="¿ Usar esta ubicación ?"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_addressSelected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <fragment
+            android:id="@+id/map_currentPlace"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            tools:context="sdcn.project.ecommerce_client_distributed.CurrentMapsFragment" />
+
+        <Button
+            android:id="@+id/button_confirmLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Confirmar ubicación" />
+
+        <Button
+            android:id="@+id/button_changeLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="cambiar ubicación" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
