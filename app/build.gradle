@@ -2,9 +2,6 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
-
-
-
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
