@@ -8,7 +8,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
-tools:context="sdcn.project.ecommerce_client_distributed.activity_factura"
+tools:context="sdcn.project.ecommerce_client_original.activity_factura"
 android:id="@+id/linearLayout_onFacturaActivity">
 
 

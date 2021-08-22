@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/quantum_googblue300"
-    tools:context="sdcn.project.ecommerce_client_distributed.MainActivity">
+    tools:context="sdcn.project.ecommerce_client_original.MainActivity">
 
     <TextView
         android:id="@+id/textView9"

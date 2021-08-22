@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/map"
-                tools:context="sdcn.project.ecommerce_client_distributed.MapsActivity"
+                tools:context="sdcn.project.ecommerce_client_original.MapsActivity"
                 android:layout_centerInParent="true"/>
 
 

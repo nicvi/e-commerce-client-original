@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sdcn.project.ecommerce_client_distributed">
+    package="sdcn.project.ecommerce_client_original">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -19,8 +19,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="sdcn.project.ecommerce_client_distributed.SelectedCategoryActivity" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.ChooserCategoryActivity" />
+        <activity android:name="sdcn.project.ecommerce_client_original.SelectedCategoryActivity" />
+        <activity android:name="sdcn.project.ecommerce_client_original.ChooserCategoryActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -42,12 +42,12 @@
             android:value="${mapsApiKey}"  />
         -->
         <activity
-            android:name="sdcn.project.ecommerce_client_distributed.MapsActivity"
+            android:name="sdcn.project.ecommerce_client_original.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.BillSelected" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.selectedProduct" />
+        <activity android:name="sdcn.project.ecommerce_client_original.BillSelected" />
+        <activity android:name="sdcn.project.ecommerce_client_original.selectedProduct" />
         <activity
-            android:name="sdcn.project.ecommerce_client_distributed.SearchableActivity"
+            android:name="sdcn.project.ecommerce_client_original.SearchableActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -57,22 +57,22 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name="sdcn.project.ecommerce_client_distributed.activity_productos" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.activity_settings" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.BuyNowActivity" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.activity_factura" />
+        <activity android:name="sdcn.project.ecommerce_client_original.activity_productos" />
+        <activity android:name="sdcn.project.ecommerce_client_original.activity_settings" />
+        <activity android:name="sdcn.project.ecommerce_client_original.BuyNowActivity" />
+        <activity android:name="sdcn.project.ecommerce_client_original.activity_factura" />
         <activity
-            android:name="sdcn.project.ecommerce_client_distributed.UserAuth_menu"
+            android:name="sdcn.project.ecommerce_client_original.UserAuth_menu"
             android:launchMode="singleTop">
 
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name="sdcn.project.ecommerce_client_distributed.signup_mailpassword" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.ChooserActivity" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.signin_mailpassword" />
-        <activity android:name="sdcn.project.ecommerce_client_distributed.MainActivity">
+        <activity android:name="sdcn.project.ecommerce_client_original.signup_mailpassword" />
+        <activity android:name="sdcn.project.ecommerce_client_original.ChooserActivity" />
+        <activity android:name="sdcn.project.ecommerce_client_original.signin_mailpassword" />
+        <activity android:name="sdcn.project.ecommerce_client_original.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
